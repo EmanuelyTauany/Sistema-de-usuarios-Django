@@ -1,0 +1,13 @@
+.login{
+background-color:blue;
+}
+
+input{
+ display:flex;
+ left:auto;
+ right:auto;
+}
+
+body{
+    background-color:green;
+}

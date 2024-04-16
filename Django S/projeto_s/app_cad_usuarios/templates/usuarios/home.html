@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="usuarios/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+  <form action="{% url 'listagem_usuarios'%}" method="post">
+
+    <div  style="text-align: center"class="login">
+    <h1> Registro </h1>
+     Nome <input name="nome" class="form-control-sm" type="text">
+     Idade<input name="idade" class="form-control-sm"type="password">
+     <button class="form-control-sm">
+        Entrar
+     </button>
+    </div>
+</form>
+    <style>
+        h1{
+            font-family:cursive;
+            text-align:center;
+        }
+        .login{
+            background-color:blue;
+            display:center;
+            justify-content:center;
+            }
+            
+            input{
+             display:flex; 
+             justify-content:center;
+             width:500px;
+             height:40px;
+             border-radius:10px;
+             left:12px;
+            }
+            
+            body{
+                background-color:green;
+            }
+    </style>
+</body>
+</html>
+
+
